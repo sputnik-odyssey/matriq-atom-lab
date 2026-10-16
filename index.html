@@ -10,7 +10,7 @@
 <body>
   <a class="skip" href="#main">Skip to explorer</a>
   <aside class="sidebar">
-    <a class="brand" href="#supply" aria-label="MatriQ lab home"><picture><source media="(max-width: 700px)" srcset="assets/matriq-wordmark-blue.svg"><img class="brand-logo" src="assets/matriq-lockup-blue.svg" alt="MatriQ" width="180" height="135" fetchpriority="high"></picture><span class="brand-label">LEARNING LAB</span></a>
+    <a class="brand" href="https://www.matriqcomputing.com/" target="_blank" rel="noopener noreferrer" aria-label="MatriQ company website (opens in a new tab)"><picture><source media="(max-width: 700px)" srcset="assets/matriq-wordmark-blue.svg"><img class="brand-logo" src="assets/matriq-lockup-blue.svg" alt="MatriQ" width="180" height="135" fetchpriority="high"></picture><span class="brand-label">LEARNING LAB</span></a>
     <div class="rail-label">THE ATOM JOURNEY</div>
     <nav id="chapters" aria-label="Learning chapters">
       <a href="#supply" data-chapter="supply"><span class="nav-num">01</span><span>Atom supply<small>Source → array</small></span><span class="nav-mark">↗</span></a>
@@ -19,17 +19,17 @@
       <a href="#readout" data-chapter="readout"><span class="nav-num">04</span><span>Measurement<small>Turn a state into a bit</small></span><span class="nav-mark">↗</span></a>
       <a href="#logical" data-chapter="logical"><span class="nav-num">05</span><span>Physical → logical<small>Protect the information</small></span><span class="nav-mark">↗</span></a>
     </nav>
-    <div class="rail-bottom"><button id="glossary-open" class="rail-action"><span>⌕</span> The lab glossary <span>↗</span></button><a class="rail-action" href="#sources"><span>≡</span> Sources & model notes <span>↗</span></a><div class="rail-note"><span class="status-dot"></span> A personal learning companion<small>Conceptual models · no lab connection</small></div></div>
+    <div class="rail-bottom"><button id="glossary-open" class="rail-action"><span>⌕</span> The lab glossary <span>↗</span></button><a class="rail-action" href="#sources"><span>≡</span> Sources & model notes <span>↗</span></a><div class="rail-note"><span class="status-dot"></span> Neutral-atom learning lab<small>Conceptual models · no lab connection</small></div></div>
   </aside>
   <div class="shell">
     <header class="topbar"><div><span class="breadcrumb">FIELD NOTES</span><span class="slash">/</span>Neutral-atom computing</div><div class="topbar-tools"><button id="glossary-open-mobile" class="mobile-glossary">Glossary</button><span class="audience-badge"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6"/><ellipse cx="8" cy="8" rx="2.5" ry="6"/><path d="M2 8h12"/></svg>Public lab</span></div></header>
     <main id="main" tabindex="-1">
-      <section class="intro"><div><p class="eyebrow"><span></span> FROM ATOMS TO ALGORITHMS</p><h1>Inside the neutral-atom lab<span>.</span></h1><p class="intro-copy">Follow the atoms. Change the controls. Build the intuition.</p></div><div class="species-picker"><span class="field-label">CHOOSE YOUR ATOM</span><div class="segmented" role="group" aria-label="Atomic species"><button data-species="Rb" aria-pressed="true"><b>⁸⁷Rb</b><span>Rubidium</span></button><button data-species="Yb" aria-pressed="false"><b>¹⁷¹Yb</b><span>Ytterbium</span></button></div></div></section>
+      <section class="intro"><div><p class="eyebrow"><span></span> FROM ATOMS TO ALGORITHMS</p><h1>Neutral-atom quantum computing<span>.</span></h1><p class="intro-copy">Explore atom preparation, quantum control, measurement, and error correction.</p></div><div class="species-picker"><span class="field-label">CHOOSE YOUR ATOM</span><div class="segmented" role="group" aria-label="Atomic species"><button data-species="Rb" aria-pressed="true"><b>⁸⁷Rb</b><span>Rubidium</span></button><button data-species="Yb" aria-pressed="false"><b>¹⁷¹Yb</b><span>Ytterbium</span></button></div></div></section>
       <div id="workspace"></div>
-      <footer><a class="footer-brand" href="#supply" aria-label="MatriQ learning lab"><img src="assets/matriq-wordmark-black.svg" width="110" height="35" alt="MatriQ"><span>LEARNING LAB</span></a><span>Built for understanding, one atom at a time.</span></footer>
+      <footer><a class="footer-brand" href="https://www.matriqcomputing.com/" target="_blank" rel="noopener noreferrer" aria-label="MatriQ company website (opens in a new tab)"><img src="assets/matriq-wordmark-black.svg" width="110" height="35" alt="MatriQ"><span>LEARNING LAB</span></a><span>Interactive models of neutral-atom quantum computing.</span></footer>
     </main>
   </div>
-  <dialog id="glossary"><div class="dialog-header"><div><p class="eyebrow">A FEW USEFUL WORDS</p><h2>The lab glossary</h2></div><button id="glossary-close" class="icon-button" aria-label="Close glossary">×</button></div><label class="search-label">Find a concept<input id="glossary-search" placeholder="Try “Rydberg” or “coherence”…" type="search"></label><div id="glossary-items"></div></dialog>
-  <script type="module" src="app.js?v=vis"></script>
+  <dialog id="glossary"><div class="dialog-header"><div><p class="eyebrow">QUANTUM COMPUTING TERMS</p><h2>The lab glossary</h2></div><button id="glossary-close" class="icon-button" aria-label="Close glossary">×</button></div><label class="search-label">Find a concept<input id="glossary-search" placeholder="Try “Rydberg” or “coherence”…" type="search"></label><div id="glossary-items"></div></dialog>
+  <script type="module" src="app.js?v=copy-20261016"></script>
 </body>
 </html>
