@@ -57,3 +57,51 @@ footer{align-items:center;padding-block:16px}
  .footer-brand span{display:none}
  footer>span{max-width:180px;text-align:right}
 }
+
+/* From experimental operations to an executable circuit. */
+.processor-intro{margin-top:0;font-size:13px;max-width:950px}
+.processor-presets{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0 16px}
+.processor-scene{border:1px solid #193650;background:var(--dark);border-radius:12px;overflow:hidden}
+.processor-scene-heading{display:flex;justify-content:space-between;gap:16px;color:#9dbbd3;font-size:9px;letter-spacing:1px;padding:19px 23px;border-bottom:1px solid #284158}
+.processor-circuit{display:block;width:100%;height:auto;max-height:300px;font-family:inherit}
+.processor-editor{align-items:start;margin-top:20px}
+.processor-purpose{margin-top:0;min-height:70px}
+.program-instructions{display:grid;gap:5px;margin:16px 0;max-height:260px;overflow:auto}
+.program-instruction{display:flex;align-items:center;gap:13px;border:1px solid #dfe8f0;border-radius:5px;padding:6px 10px;background:#f7fafc;font-size:12px}
+.program-instruction>span{color:#7794aa;font-size:10px}
+.program-instruction>b{font-weight:500}
+.program-instruction .icon-button{margin-left:auto;font-size:20px;padding:0 4px}
+.program-instruction.applied{background:#edf5fc;border-color:#b7d3e9}
+.program-builder{display:flex;align-items:end;gap:10px;flex-wrap:wrap;margin:18px 0}
+.program-builder label{font-size:11px;color:#4a6b84;display:grid;gap:6px;flex:1;min-width:70px}
+.program-builder select{width:100%;min-height:36px}
+.program-builder .button{min-height:36px}
+.program-actions{margin:17px 0}
+.processor-subtitle{font-size:12px;font-weight:600;margin:22px 0 14px}
+.register-outcomes{display:grid;gap:14px}
+.register-outcome{display:grid;grid-template-columns:37px minmax(35px,1fr) 45px 50px;gap:10px;align-items:center;font-size:12px}
+.register-outcome>output{text-align:right;font-variant-numeric:tabular-nums}
+.register-outcome>small{font-size:10px;text-align:right;color:#6b8398}
+.register-bar{height:7px;background:#e4edf5;border-radius:5px;overflow:hidden}
+.register-bar>span{display:block;height:100%;background:var(--accent)}
+.processor-bridge{margin-top:32px}
+.processor-bridge>h3{font-size:21px;font-weight:500;margin:0 0 18px}
+.processor-layer-tabs{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:12px}
+.processor-layer h4{font-size:19px;font-weight:500;margin:0 0 12px}
+.processor-layer>p:not(.eyebrow){font-size:13px;line-height:1.8;color:#4f6b83;margin:0 0 15px;max-width:850px}
+.program-code{font-family:inherit;background:#eef5fb;padding:16px 20px;line-height:1.9;font-size:13px;border-left:2px solid #99bfdc}
+.native-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px 30px;padding-left:25px;margin:20px 0;color:#47667f}
+.native-list li{padding-left:5px;font-size:13px;line-height:1.5}
+.native-list small{display:block;font-size:10px;color:#718b9f}
+.processor-controls{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:20px 0}
+.processor-controls article{padding:17px;border:1px solid #d5e4f0;border-radius:7px;background:#f6faff}
+.processor-controls b{font-size:10px;font-weight:600;letter-spacing:1px;color:#1c699f}
+.processor-controls p{font-size:12px;line-height:1.8;color:#557088;margin:10px 0 0}
+.processor-criteria{margin-top:25px}
+.processor-criteria td{font-size:12px;vertical-align:top}
+.processor-criteria td:first-child{width:150px;color:#1f5884}
+.processor-analog{font-size:13px;line-height:1.9;padding:15px 0}
+.processor-references{line-height:2;margin-top:10px}
+.processor-references a{text-decoration:underline;text-underline-offset:3px;color:#1b68a7}
+@media(min-width:701px){.sidebar nav a{min-height:53px;padding-block:10px}.rail-bottom{padding-top:25px}}
+@media(max-width:700px){.processor-scene-heading{padding:15px;font-size:8px;letter-spacing:.4px;flex-wrap:wrap;gap:8px}.processor-circuit{min-width:620px}.processor-scene{overflow-x:auto}.processor-controls{grid-template-columns:1fr}.native-list{grid-template-columns:1fr}.processor-criteria th,.processor-criteria td{padding:9px}.processor-criteria td:first-child{width:95px}.register-outcome{gap:8px}.processor-layer>p:not(.eyebrow){font-size:12px}.processor-purpose{min-height:0}}
